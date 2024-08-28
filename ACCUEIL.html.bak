@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8">
+	<title>EGE MARKET</title>
+	<style>
+	/* polices de caractères copié de fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
+html
+{
+	background-image: url(noir.WebP);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+
+
+body
+{
+	/* au centre */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 72%;
+	background-color: #ff5733;
+	border-radius: 0%;
+	border: black; 2px solid;
+	color: black;
+}
+
+header
+{
+	padding-top: 20px;
+	font-family: 'Caveat', cursive;
+	font-size: 42px;
+	text-align: center;
+}
+
+#zone1
+{
+	max-width: 80%;
+	/* au centre */
+	display: flex;
+	flex-direction: row;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	align-items: center;
+}
+
+#zone2
+{
+	max-width: 80%;
+	/* au centre */
+	display: flex;
+	flex-direction: row-reverse;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	align-items: center;
+}
+
+.zone_texte
+{
+	margin: 4%;
+}
+
+
+
+
+nav a:hover
+{
+	color:#00000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav a
+{
+	color:#FFD700;
+	text-decoration: none;
+}
+
+nav #actif a:hover
+{
+	color:F9FAFC;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav #actif a
+{
+	color:yellow;
+	text-decoration: none;
+}
+
+#actif
+{
+	background-color: #000000;
+	color:gray;
+	border-radius: 12px;
+	padding:14px;
+}
+
+h1
+{
+	color:#000000;
+	font-family: 'Caveat', cursive;
+	font-size: 32px;
+	background-color: white;
+	text-align: center;
+}
+
+h2
+{
+	color:#570b05;
+	font-family: 'Caveat', cursive;
+	font-size: 32px;
+	text-align: center;
+}
+
+#zone_img
+{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#tuto
+{
+	font-style:;
+	text-align: center;
+}
+
+.effet
+{
+	width: 10vw;
+	height: 10vw;
+	border-radius: 10%;
+	transition: .8s;
+	border-bottom: black solid 3px;
+
+}
+
+.effet:hover
+{
+	transform : scale(1.05);
+}
+
+footer
+{
+	padding: 8px;
+	text-align: right;
+}
+
+footer a
+{
+	color: purple;
+	font-weight: bold;
+}
+	</style>
+</head>
+
+<body>
+	<header>EGE MARKET</header>
+	
+	<section>
+		<h1>Le commencement...</h1>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Nos horaires...</h2>
+				
+				<p>8H-20H-7J/7 </p>
+			</div>
+			<img title="7J/7" src="7.WebP" width='120px' alt="7J/7">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Notre position ?</h2>
+				<p> 84 Route de Mittelhausbergen		 </p>
+			</div>
+			<img title="EGE MARKET" src="EGE-MARKET.WebP" width='120px' alt="EGE MARKET">
+			
+		</div>
+		
+		<h1>Notre boucherie...</h1>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Viande Hachée...</h2>
+				
+				<p>	La viande hachée est une viande finement coupée, à l'aide d'un hachoir manuel ou électrique. Ce type de préparation culinaire, comme les mises en pâtés ou en saucisses, est majoritairement destinée aux morceaux durs d'un animal adulte ou âgé et réformé de l'élevage.		</p>
+			</div>
+			<img title="Viande Hachée" src="vh.WebP" width='120px' alt="Viande Hachée">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Bourguignon...</h2>
+				<p> Le bourguignon est composé de morceaux de viande de bœuf. </p>
+			</div>
+			<img title="Bourguignon" src="bourguignon.WebP" width='120px' alt="Bourguignon">
+			
+		</div>
+			<hr>
+			<div id="zone1">
+			<div class="zone_texte">
+				<h2>Steak de boeuf...</h2>
+				
+				<p>		Le steak, un classique de la viande. Le steak est une découpe.	</p>
+			</div>
+			<img title="Steak de boeuf" src="sb.WebP" width='120px' alt="Steak de beouf">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Côte de boeuf...</h2>
+				<p> La côte de bœuf est un morceau de découpe du bœuf. Elle inclut en une seule portion la partie supérieur d'une côte de l'animal ainsi que la viande qui la couvre.</p>
+			</div>
+			<img title="Côte de boeuf" src="cb.WebP" width='120px' alt="Côte de boeuf">
+			
+		</div>
+			<hr>
+			<div id="zone1">
+			<div class="zone_texte">
+				<h2>Filet de boeuf...</h2>
+				
+				<p>	Le filet de boeuf est un morceau délicat et savoureux en bouche grâce à son persillage et à sa teneur en gras parfaitement équilibrés.		</p>
+			</div>
+			<img title="Filet de boeuf " src="fbb.WebP" width='120px' alt="Filet de beouf">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Brochette de boeuf...</h2>
+				<p> Une brochette, en cuisine, désigne une fine tige en métal ou en bois sur laquelle sont enfilés des viandes. </p>
+			</div>
+			<img title="Brochette de boeuf" src="bb.WebP" width='120px' alt="Brochette de beouf">
+			
+		</div>
+			<hr>
+			<div id="zone1">
+			<div class="zone_texte">
+				<h2>Brochette d'agneau...</h2>
+				
+				<p>		Une brochette, en cuisine, désigne une fine tige en métal ou en bois sur laquelle sont enfilés des viandes.	</p>
+			</div>
+			<img title="Brochette d'agneau" src="ba.WebP" width='120px' alt="Brochette d'agneau">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Collier d'agneau...</h2>
+				<p>  Le collier d'agneau est le morceau situé dans le cou de l'animal. Moins gras que la poitrine d'agneau, il comporte généralement plusieurs os lorsqu'il est acheté entier.</p>
+			</div>
+			<img title="Collier d'agneau" src="ca.WebP" width='120px' alt="Collier d'agneau">
+			
+		</div>
+			<hr><div id="zone1">
+			<div class="zone_texte">
+				<h2>Cotelette d'agneau...</h2>
+				
+				<p>	Une côtelette d'agneau est coupée du dos de l'animal. De la 1ère à la 13ème paire de côtes qui forment le torax : on les appelles les côtes découvertes, les côtes secondes et les còtes premières.		</p>
+			</div>
+			<img title="Côtelette d'agneau" src="vh.WebP" width='120px' alt="Côtelette d'agneau">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Collier de veau...</h2>
+				<p>  Muscle de l'encolure de l'animal, le collier fait partie des morceaux dits "avants" délaissés par les consommateurs car peu connus. D'une manière générale, le collier doit mijoter, c'est-à-dire cuire à très petit feu et très longtemps.</p>
+			</div>
+			<img title="Collier de veau" src="cv.WebP" width='120px' alt="Collier de veau">
+			
+		</div>
+			<hr><div id="zone1">
+			<div class="zone_texte">
+				<h2>Epaule de veau...</h2>
+				
+				<p>	L'épaule de veau est le morceau de toutes les cuissons : elle peut être grillée sous formes de cubes dans des brochettes, poêlée en émincés, rôtie tout simplement nature ou farcie et roulée, et aussi mijotée en sauté, des gros cubes de veau cuits doucement avec des légumes.		</p>
+			</div>
+			<img title="Epaule de veau" src="edv.WebP" width='120px' alt="Epaule de veau">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Escalope de veau...</h2>
+				<p> L'escalope de veau se présente sous forme de tranches plus ou moins fines, taillées dans les muscles de la cuisse, plus précisément dans la noix, la sous-noix, la noix-pâtissière, ou bien encore dans le quasi ou l'épaule.</p>
+			</div>
+			<img title="Escalope de veau" src="ev.WebP" width='120px' alt="Escalope de veau">
+			
+		</div>
+			<hr>
+			<div id="zone1">
+			<div class="zone_texte">
+				<h2>Filet mignon de veau...</h2>
+				
+				<p>	Le filet de veau, ou filet mignon de veau, désigne le muscle long et cylindrique situé le long de l'épine dorsale en face interne et qui est un muscle de traction. Il a une structure très fermée et composée de fibres fines et longues. C'est une viande d'une tendreté exceptionnelle, réputée pour son goût fin et délicat.	</p>
+			</div>
+			<img title="Filet mignon de veau" src="fv.WebP" width='120px' alt="Filet mignon de veau">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Jarret de veau...</h2>
+				<p> Le jarret de veau est la partie située en-dessous de l'épaule de l'animal, dans la partie inférieure des membres. Il s'agit d'un morceau très gélatineux qui comporte beaucoup de tendons, mais également un os très riche en moelle.</p>
+			</div>
+			<img title="Jarret de veau" src="jv.WebP" width='120px' alt="Jarret de veau">
+			
+		</div>
+			<hr>
+			<div id="zone1">
+			<div class="zone_texte">
+				<h2>Cote de veau...</h2>
+				
+				<p>	La côte de veau est issue de la partie la plus noble et la plus savoureuse de l'animal. Grillée au barbecue ou poêlée avec un peu de matière grasse, cette côte de veau cacher ravira les amateurs de viande blanche.	</p>
+			</div>
+			<img title="Côte de veau" src="cdv.WebP" width='120px' alt="Côte de veau">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Brochette de veau...</h2>
+				<p> Une brochette, en cuisine, désigne une fine tige en métal ou en bois sur laquelle sont enfilés des viandes.</p>
+			</div>
+			<img title="Brochette de veau" src="bv.WebP" width='120px' alt="Brochette de veau">
+			
+		</div>
+			<hr>
+			<div id="zone1">
+			<div class="zone_texte">
+				<h2>Epaule d'agneau...</h2>
+				
+				<p>Cette coupe est située entre le cou et la poitrine de l'agneau et est composée de muscles bien développés, ce qui lui confère une texture succulente. 	</p>
+			</div>
+			<img title="Epaule d'agneau" src="ea.WebP" width='120px' alt="Epaule d'agneau">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Gigot d'agenau...</h2>
+				<p> Le gigot est la partie du membre postérieur d'un animal comme l'agneau, le chevreuil ou le cerf, qui s'articule entre la hanche et le jarret.</p>
+			</div>
+			<img title="Gigot d'agneau" src="ga.WebP" width='120px' alt="Gigot d'agneau">
+			
+		</div>
+			<hr>
+			<div id="zone1">
+			<div class="zone_texte">
+				<h2>Aile de poulet...</h2>
+				
+				<p>	Il s'agit d'un morceau assez peau charnue, recouvert d'une peau très croustillante une fois qu'elle est cuite. Le mariner quelques heures ou le farcir le rendent plus savoureux.(Disponible en versison mariné)	</p>
+			</div>
+			<img title="Aile de poulet" src="ap.WebP" width='120px' alt="Aile de poulet">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Filet de poulet...</h2>
+				<p>Le filet de poulet est une viande blanche, tendre et savoureuse, taillée dans la partie supérieure au niveau de la poitrine.</p>
+			</div>
+			<img title="Filet de poulet" src="fp.WebP" width='120px' alt="Filet de poulet">
+			
+		</div>
+			<hr><div id="zone1">
+			<div class="zone_texte">
+				<h2>Cuisse de poulet...</h2>
+				
+				<p>La cuisse se compose du haut de cuisse et du pilon. Il s'agit d'un morceau connu pour sa tendreté et sa jutosité.	</p>
+			</div>
+			<img title="Cuisse de poulet" src="cp.WebP" width='120px' alt="Cuisse de poulet">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Pilons de poulet...</h2>
+				<p> Le pilon est la partie inférieure de la cuisse d'une volaille. La viande de pilon est semblable à la viande de cuisse, elle est juteuse et goûteuse.</p>
+			</div>
+			<img title="Pilons de poulet" src="pp.WebP" width='120px' alt="Pilons de poulet">
+			
+		</div>
+			<hr>
+			<div id="zone1">
+			<div class="zone_texte">
+				<h2>Chipolata...</h2>
+				
+				<p>	Cette appellation désigne des saucisses à base de chair à saucisse de veau ou de poulet moyennement hachée, embossée dans un boyau naturel. 	</p>
+			</div>
+			<img title="Chipolata" src="chipolata.WebP" width='120px' alt="Chipolata">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Brochette de poulet...</h2>
+				<p> Une brochette, en cuisine, désigne une fine tige en métal ou en bois sur laquelle sont enfilés des viandes.</p>
+			</div>
+			<img title="Brochette de poulet" src="bp.WebP" width='120px' alt="Brochette de poulet">
+			
+		</div>
+			<hr>
+			<div id="zone1">
+			<div class="zone_texte">
+				<h2>Merguez...</h2>
+				
+				<p>	La merguez est une petite saucisse rouge épicéeà base d'un hachis de viande de boeuf.(Disponible en version piquante)	</p>
+			</div>
+			<img title="Merguez" src="merguez.WebP" width='120px' alt="Merguez">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Saucisse blanche...</h2>
+				<p> La saucisse blanche est une charcuterie bavaroise faite avec du veau.(Disponible en version nature ainsi que fromage)</p>
+			</div>
+			<img title="Saucisse blanche" src="sbf.WebP" width='120px' alt="Saucisse blanche">
+			
+		</div>
+			<hr><div id="zone1">
+			<div class="zone_texte">
+				<h2>Coeur de boeuf...</h2>
+				
+				<p> Le Coeur fait partie de la catégorie des Abats. C'est un morceau riche en protéines et peu gras. Ces morceaux étant très fragiles ils ont une DLC très courte 3 à 4 jours.	</p>
+			</div>
+			<img title="Coeur de boeuf" src="cbf.WebP" width='120px' alt="Coeur de boeuf">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Coeur de veau...</h2>
+				<p> Le Coeur fait partie de la catégorie des Abats. C'est un morceau riche en protéines et peu gras. Ces morceaux étant très fragiles ils ont une DLC très courte 3 à 4 jours.(Disponible seulement sur commande) </p>
+			</div>
+			<img title="Coeur de veau" src="cdvv.WebP" width='120px' alt="Coeur de veau">
+			
+		</div>
+			<hr><div id="zone1">
+			<div class="zone_texte">
+				<h2>Knack...</h2>
+				
+				<p>	La knack ou knack d'Alsace ou saucisse de Strasbourg est une spécialité culinaire traditionnelle de la cuisine alsacienne. Il s'agit d'une saucisse fumée précuite, à base de viande de bœuf et/ou veau, et d'épices.	</p>
+			</div>
+			<img title="Knack" src="knack.WebP" width='120px' alt="Knack">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Langue de boeuf...</h2>
+				<p> La langue de bœuf est une partie du boeuf. La langue, organe charnu, fait partie des abats rouges. Quelle que soit sa provenance, elle est savoureuse à condition de cuire longtemps à petit feu.</p>
+			</div>
+			<img title="Langue de boeuf" src="lb.WebP" width='120px' alt="langue de boeuf">
+			
+		</div>
+			<hr><div id="zone1">
+			<div class="zone_texte">
+				<h2>Tripes...</h2>
+				
+				<p>	Les tripes sont des abats préparés à partir de l'estomac des ruminants.	</p>
+			</div>
+			<img title="Tripes" src="tripe.WebP" width='120px' alt="Tripes">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Coeur de volaille...</h2>
+				<p>Le Coeur fait partie de la catégorie des Abats. C'est un morceau riche en protéines et peu gras. Ces morceaux étant très fragiles ils ont une DLC très courte 3 à 4 jours. </p>
+			</div>
+			<img title="Coeur de volaille" src="cdvl.WebP" width='120px' alt="Coeur de voalille">
+			
+		</div>
+			<hr><div id="zone1">
+			<div class="zone_texte">
+				<h2>Foie de volaille...</h2>
+				
+				<p>	 Le foie est une viande qui fait partie des abats et qui a pour avantage d'être relativement maigre.	</p>
+			</div>
+			<img title="Foie de volaille" src="fdvl.WebP" width='120px' alt="Foie de volaille">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Foie de boeuf...</h2>
+				<p>Le foie est une viande qui fait partie des abats et qui a pour avantage d'être relativement maigre. </p>
+			</div>
+			<img title="Foie de boeuf" src="fdbf.WebP" width='120px' alt="Foie de boeuf">
+			
+		</div>
+			<hr><div id="zone1">
+			<div class="zone_texte">
+				<h2>Foie d'agneau...</h2>
+				
+				<p>	Le foie est une viande qui fait partie des abats et qui a pour avantage d'être relativement maigre.	</p>
+			</div>
+			<img title="Foie d'agneau" src="fd.WebP" width='120px' alt="Foie d'agneau">
+		</div>
+<hr>
+			<div id="zone1">
+			<div class="zone_texte">
+				<h2>Faux-Filet...</h2>
+				
+				<p>	Le faux-filet est un morceau de découpe du bœuf connu sous les termes biftecks ou steaks  désignant toute tranche de viande rouge de viande bovine.	</p>
+			</div>
+			<img title="Faux-Filet" src="fff.WebP" width='120px' alt="Faux-Filet">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Cuisse de poulet désossée...</h2>
+				<p> La cuisse de poulet désossée est un morceau de choix à la chair moins sèche et plus savoureuse que le blanc.</p>
+			</div>
+			<img title="Cuisse de poulet desossée" src="cpd.WebP" width='120px' alt="Cuisse de poulet desossée">
+			
+		</div>		
+		
+		<h1>Nos fruits et légumes...</h1>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Pomme...</h2>
+				
+				<p>La pomme est un fruit comestible produit par un pommier.
+(Présent toutes les saisons)			</p>
+			</div>
+			<img title="Pomme" src="pomme.WebP" width='120px' alt="Pomme">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Banane...</h2>
+				<p> La banane est le fruit ou la baie dérivant de l’inflorescence du bananier.
+				(Présent toutes les saisons)</p>
+			</div>
+			<img title="Banane" src="banane.WebP" width='120px' alt="Banane">
+			
+		</div>
+			<hr>
+		
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Tomate...</h2>
+				
+				<p>La tomate est une espèce de plantes herbacées du genre Solanum de la famille des Solanacées.
+(Présent toutes les saisons)				</p>
+			</div>
+			<img title="Tomate" src="tomate.WebP" width='120px' alt="Tomate">
+		</div>
+		
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Poivron...</h2>
+				<p> Les poivrons sont des variétés de piments doux de l'espèce Capsicum annuum à très gros fruits.
+				(Présent toutes les saisons)</p>
+			</div>
+			<img title="Poivron" src="poivron.WebP" width='120px' alt="Poivron">
+			
+		</div>
+			<hr>
+		
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Courgette...</h2>
+				
+				<p>La courgette est une variété de plante à fleurs de la famille des Cucurbitaceae.
+(Présent toutes les saisons)				</p>
+			</div>
+			<img title="Courgette" src="courgette.WebP" width='120px' alt="Courgette">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Aubergine...</h2>
+				<p> L'Aubergine  est une plante dicotylédone de la famille des Solanaceae, cultivée pour son légume-fruit.
+				(Présent toutes les saisons)</p>
+			</div>
+			<img title="Aubergine" src="aubergine.WebP" width='120px' alt="Aubergine">
+				
+		</div>
+			<hr>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Oignon rouge...</h2>
+				
+				<p>L'oignon est une espèce herbacée, vivace par son bulbe unique, cultivée comme une annuelle ou bisannuelle.
+(Présent toutes les saisons)				</p>
+			</div>
+			<img title="Oignon Rouge" src="OR.WebP" width='120px' alt="Oignon Rouge">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Oignon...</h2>
+				<p> L'oignon est une espèce herbacée, vivace par son bulbe unique, cultivée comme une annuelle ou bisannuelle.
+				(Présent toutes les saisons)</p>
+			</div>
+			<img title="Oignon" src="O.WebP" width='120px' alt="Oignon">
+			
+		</div>
+		<hr>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Citron...</h2>
+				
+				<p>Le citron (ou citron jaune) est un agrume, fruit du citronnier Citrus limon.
+(Présent toutes les saisons)				</p>
+			</div>
+			<img title="Citron" src="citron.WebP" width='120px' alt="Citron">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Citron vert...</h2>
+				<p> La lime, lime acide ou citron vert est un agrume.
+				(Présent toutes les saisons)</p>
+			</div>
+			<img title="Citron Vert" src="lime.WebP" width='120px' alt="Citron Vert">
+			
+		</div>
+		<hr>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Pomme de Terre...</h2>
+				
+				<p>La pomme de terre est un tubercule comestible produit par l’espèce Solanum tuberosum, appartenant à la famille des solanacées.
+				(Présent toutes les saisons)</p>
+			</div>
+			<img title="Pomme de Terre" src="PDT.WebP" width='120px' alt="Pomme de Terre">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Ail...</h2>
+				<p> L'ailest une espèce de plantes potagères vivaces monocotylédones dont les bulbes, à l'odeur et au goût forts, sont souvent employés comme condiment en cuisine.
+				(Présent toutes les saisons)</p>
+			</div>
+			<img title="Ail" src="ail.WebP" width='120px' alt="Ail">
+			
+		</div>
+			<hr>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Carotte...</h2>
+				
+				<p>La carotteest une plante bisannuelle de la famille des Apiacées, largement cultivée pour sa racine pivotante charnue, comestible, de couleur généralement orangée, consommée comme légume.
+(Présent toutes les saisons)				</p>
+			</div>
+			<img title="Carotte" src="carotte.WebP" width='120px' alt="Carotte">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Persil...</h2>
+				<p> Le persilest une espèce de plante herbacée de la famille des Apiacéeset du genre Petroselinum.
+				(Présent toutes les saisons)</p>
+			</div>
+			<img title="Persil" src="persil.WebP" width='120px' alt="Persil">
+			
+		</div>
+			<hr>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Coriandre...</h2>
+				
+				<p>La coriandre est une espèce de plantes herbacées annuelle de la famille des Apiacées. (Présent toutes les saisons)
+				</p>
+			</div>
+			<img title="Coriandre" src="coriandre.WebP" width='120px' alt="Coriandre">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Menthe...</h2>
+				<p> Les menthes forment un genrede plantes herbacées vivaces de la famille des Lamiacées , sous-famille des Nepetoideae, tribu des Mentheae, sous-tribu des Menthinae.
+				(Présent toutes les saisons)</p>
+			</div>
+			<img title="Menthe" src="menthe.WebP" width='120px' alt="Menthe">
+			
+		</div>
+			<hr>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Epinard...</h2>
+				
+				<p>L'épinard est une plante potagère, annuelle ou bisannuelle, de la famille des Chenopodiaceae ou des Amaranthaceae selon les classifications.
+(Présent toutes les saisons)				</p>
+			</div>
+			<img title="Epinard" src="epinard.WebP" width='120px' alt="Epinard">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Batavia...</h2>
+				<p> Laitue craquante et tendre, dotée d'une grosse pomme vert clair ou vert jaune, gaufrée, avec les bords découpés, au goût légèrement sucré.
+(Présent toutes les saisons)				</p>
+			</div>
+			<img title="Batavia" src="batavia.WebP" width='120px' alt="Batvia">
+			
+		</div>
+			<hr>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Iceberg...</h2>
+				
+				<p>La laitue Iceberg est croquante, rafraîchissante et facile à portionner. 
+				(Présent toutes les saisons)</p>
+			</div>
+			<img title="Iceberg" src="iceberg.WebP" width='120px' alt="Iceberg">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Cebette...</h2>
+				<p> La cébetteest un oignonde deuxième année récolté avant l'apparition des hampes florales.
+(Présent toutes les saisons)				</p>
+			</div>
+			<img title="Cebette" src="cebette.WebP" width='120px' alt="Cebette">
+			
+		</div>
+			<hr>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2> Cellerie...</h2>
+				
+				<p>La cellerie est une plante herbacée bisannuelle de la famille des Apiacées, cultivée comme plante potagère pour ses feuilles et sa racine tubérisée consommées comme légumes. 
+				(Présent toutes les saisons)</p>
+			</div>
+			<img title="Cellerie" src="cellerie.WebP" width='120px' alt="Cellerie">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Poireau...</h2>
+				<p> Le poireau cultivéest une espèce de plante herbacée vivace largement cultivée comme plante potagère pour ses feuillesconsommées comme légumes.
+				(Présent toutes les saisons)</p>
+			</div>
+			<img title="Poireau" src="Poireau.WebP" width='120px' alt="Poireau">
+			
+		</div>
+			<hr>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Piment...</h2>
+				
+				<p> Le terme pimentest un nom vernaculaire désignant le fruit de cinq espèces de plantes du genre Capsicum de la famille des Solanacées et de plusieurs autres taxons.
+(Présent toutes les saisons)				</p>
+			</div>
+			<img title="Piment" src="piment.WebP" width='120px' alt="Piment">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Champignon...</h2>
+				<p>Le champignon n'est ni un légume, ni un fruit mais un eucaryote pluricellulaire ou unicellulaire.
+(Présent toutes les saisons)				</p>
+			</div>
+			<img title="Champignon" src="champignon.WebP" width='120px' alt="Champignon">
+			
+		</div>
+			<hr>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Mangue...</h2>
+				
+				<p>La mangue est le fruit du manguier, grand arbre tropical de la famille des Anacardiaceae, originaire des forêts d'Inde, du Pakistan et de la Birmanie, où il pousse encore à l'état sauvage.
+(Présent toutes les saisons)				</p>
+			</div>
+			<img title="Mangue" src="mangue.WebP" width='120px' alt="Mangue">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Tomate Cerise...</h2>
+				<p> La tomate cerise est un type de variété de tomate, cultivée comme cette dernière pour ses fruits - mais de taille réduite - consommée comme légume, ainsi désignée légume-fruit.
+				(Présent toutes les saisons)</p>
+			</div>
+			<img title="Tomate Cerise" src="TR.WebP" width='120px' alt="Tomate Cerise">
+			
+		</div>
+		<hr>
+		
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Concombre...</h2>
+				
+				<p>Le concombre est une espèce de plante à fleurs de la famille des Cucurbitacées. C'est une plante potagère herbacée, grimpante, de la même famille que la calebasse africaine, le melon ou la courge.(Présent toutes les saisons)			</p>
+			</div>
+			<img title="Concombre" src="concombre.WebP" width='120px' alt="Concombre">
+		</div>
+		<h1>Nos fruits et légumes...</h1>
+		
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Pêche...</h2>
+				
+				<p> La pêche est un fruit comestible produit par le pêcheroriginaire de Chine.(Principalement en été) 	</p>
+			</div>
+			<img title="Pêche" src="peche.WebP" width='120px' alt="Pêche">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Nectarine...</h2>
+				<p> La nectarine est une variété de pêchesissue d'une mutation naturelle.(Principalement en été) </p>
+			</div>
+			<img title="Nectarine" src="nectarine.WebP" width='120px' alt="Nectarine">
+			
+		</div>
+			<hr>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Abricot...</h2>
+				
+				<p>	L'abricot est le fruit d'un arbre généralement de petite taille appelé abricotier, de la famille des Rosaceae.(Principalement en été)</p>
+			</div>
+			<img title="Abricot" src="abricot.WebP" width='120px' alt="Abricot">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Figue Fraîche...</h2>
+				<p> La figue est le fruit du figuier commun et de quelques autres arbres de la famille des moracées, emblème du bassin méditerranéen où il est cultivé depuis des millénaires. (Principalement en été)</p>
+			</div>
+			<img title="Figue Fraîche" src="FF.WebP" width='120px' alt="Figue Fraîche">
+			
+		</div>
+			<hr>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Datte Fraîche...</h2>
+				
+				<p>	Une datte fraîche voit sa portion de glucides, de minéraux et de fibres, largement supérieure à celle d'un fruit frais classique. (Principalement en été)		</p>
+			</div>
+			<img title="Datte Fraîche" src="DF.WebP" width='120px' alt="Datte Fraîche">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Mirabelle...</h2>
+				<p> La mirabelle est le fruit du mirabellier, variété de prunier.(Principalement en été)</p>
+			</div>
+			<img title="Mirabelle" src="mirabelle.WebP" width='120px' alt="Mirabelle">
+			
+		</div>
+			<hr>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Prune...</h2>
+				
+				<p>	La prune est un fruit à noyau, à chair comestible sucrée et juteuse.(Principalement en été)	</p>
+			</div>
+			<img title="Prune" src="prune.WebP" width='120px' alt="Prune">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Quetsche...</h2>
+				<p> La quetscheest le fruit du quetschier, l'un des sous-cultivars du prunier de Damas.(Principalement en été) </p>
+			</div>
+			<img title="Quetsche" src="quetsche.WebP" width='120px' alt="Quetsche">
+			
+		</div>
+			<hr>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Raisin...</h2>
+				
+				<p>	Le raisin est le fruit de la vigne. Le raisin de la vigne cultivée Vitis vinifera est un des fruits les plus cultivés au monde, avec 68 millions de tonnes produites en 2010, derrière les agrumes, les bananes et les pommes. (Principalement en été)	</p>
+			</div>
+			<img title="Raisin" src="raisin.WebP" width='120px' alt="Raisin">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Cerise...</h2>
+				<p> La cerise est le fruit comestible du cerisier. Il s'agit d'une drupe, de forme sphérique, de couleur généralement rouge plus ou moins foncé jusque noire, plus rarement jaune. (Principalement en été)</p>
+			</div>
+			<img title="Cerise" src="cerise.WebP" width='120px' alt="Cerise">
+			
+		</div>
+			<hr>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Ananas...</h2>
+				
+				<p>	L'ananas est une espèce de plantes xérophytes, originaire d'Amérique du Sud, plus spécifiquement du Paraguay, du nord-est de l'Argentine et sud du Brésil.(Principalement en été)	</p>
+			</div>
+			<img title="Ananas" src="ananas.WebP" width='120px' alt="Ananas">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Avocat...</h2>
+				<p> L'avocat est le fruit comestible de l'avocatier, un arbre de la famille des Lauracées, originaire d'Amérique tropicale.(Principalement en été)</p>
+			</div>
+			<img title="Avocat" src="avocat.WebP" width='120px' alt="Avocat">
+			
+		</div>
+			<hr>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Mini Concombre...</h2>
+				
+				<p> Le mini concombre est une espèce de plantes à fleurs dicotylédones de la famille des Cucurbitaceae, originaire d'Afrique australe.(Principalement en été)	</p>
+			</div>
+			<img title="Mini Concombre" src="MC.WebP" width='120px' alt="Mini Concombre">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Figue de Barbarie...</h2>
+				<p> La figue de Barbarie, est une baie charnue produite par le figuier de Barbarie et le figuier d'Inde, deux cactus originaires du Maghreb.(Principalement en été) </p>
+			</div>
+			<img title="Figue de Barbarie" src="FB.WebP" width='120px' alt="Figue de Barbarie">
+			
+		</div>
+			<hr>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Pastèque...</h2>
+				
+				<p> La pastèque, aussi appelée melon d'eau, est une espèce de plantes à fleurs de la famille des Cucurbitacées, originaire d'Afrique.(Principalement en été)</p>
+			</div>
+			<img title="Pastèque" src="pasteque.WebP" width='120px' alt="Pastèque">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Galia...</h2>
+				<p> Le melon Galia, également connu sous le nom de sarda en Asie du Sud-Est, est un type de melon hybride  issu d'un croisement entre le cultivar de melon à chair verte 'Ha-Ogen' et le cultivar de melon à croûte réticulée 'Krimka'.(Principalement en été)</p>
+			</div>
+			<img title="Galia" src="galia.WebP" width='120px' alt="Galia">
+			
+		</div>
+			<hr>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Charentais...</h2>
+				
+				<p>	Le melon charentais est une désignation qui recouvre des variétés de différentes provenances suivant les époques de l'année.(Principalement en été)</p>
+			</div>
+			<img title="Charentais" src="Charentais.WebP" width='120px' alt="Charentais">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Melon Vert...</h2>
+				<p> Le melon vert est un fruit de la famille Cucurbitaceae, de la variété Cucumis melo, du groupe Inodorus.(Principalement en été)</p>
+			</div>
+			<img title="Melon Vert" src="MV.WebP" width='120px' alt="Melon Vert">
+			
+		</div>
+			<hr>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Melon Jaune...</h2>
+				
+				<p>		Le melon jaune est un cultivar du melon de l'espèce Cucumis melo, groupe Inodorus, dans la famille des cucurbitacées.(Principalement en été)	</p>
+			</div>
+			<img title="Melon Jaune" src="MJ.WebP" width='120px' alt="Melon Jaune">
+		
+		</div>
+		<h1>Nos fruits et légumes...</h1>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Poire...</h2>
+				
+				<p>	La poire est le fruit à pépins comestible au goût doux et sucré, produit par le poirier commun, arbre de la famille des Rosaceae.(Principalement en hiver)</p>
+			</div>
+			<img title="Poire" src="poire.WebP" width='120px' alt="Poire">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Orange...</h2>
+				<p> L'orange est le fruit de deux espèces distinctes de la famille des Rutacées, d'une part l'orange douce ou simplement orange produit par l'oranger, d'autre part l'orange amère produit du Bigaradier.(Principalement en hiver) </p>
+			</div>
+			<img title="Orange" src="orange.WebP" width='120px' alt="Orange">
+			
+		</div>
+			<hr>
+			<div id="zone1">
+			<div class="zone_texte">
+				<h2>Clémentine...</h2>
+				
+				<p> La clémentine est un agrume, fruit du clémentinier, un arbre hybride de la famille des rutacées, issu du croisement entre un mandarinier et un oranger.(Principalement en hiver)</p>
+			</div>
+			<img title="Clémentine" src="clementine.WebP" width='120px' alt="Clémentine">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Mandarine...</h2>
+				<p> La mandarine, également connue sous le nom de mandarin ou de mandarine, est un agrume. C’est le fruit du mandarinier, une espèce d'arbres de la famille des Rutaceae.(Principalement en hiver) </p>
+			</div>
+			<img title="Mandarine" src="mandarine.WebP" width='120px' alt="Mandarine">
+			
+		</div>
+			<hr>
+			<div id="zone1">
+			<div class="zone_texte">
+				<h2>Kaki...</h2>
+				
+				<p>	Le kaki, appelé aussi plaquemine du Japon, plaquemine de Chine, ou anciennement figue caque, est le fruit du plaqueminier du Japon, de la famille des Ébénacées.(Principalement en hiver)</p>
+			</div>
+			<img title="Kaki" src="kaki.WebP" width='120px' alt="Kaki">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Grenade...</h2>
+				<p> La grenade est le fruit du grenadier de la famille des Lythracées. Elle provient d’une aire géographique qui s’étend de l’Asie occidentale à l’Asie centrale.(Principalement en hiver) </p>
+			</div>
+			<img title="Grenade" src="greande.WebP" width='120px' alt="Grenade">
+			
+		</div>
+			<hr>
+			<div id="zone1">
+			<div class="zone_texte">
+				<h2>Kiwi...</h2>
+				
+				<p> Les kiwis sont des fruits de plusieurs espèces de lianes du genre Actinidia, famille des Actinidiaceae. Ils sont originaires de Chine, notamment de la province de Shaanxi. On en trouve par ailleurs dans des climats dits montagnards tropicaux.(Principalement en hiver)</p>
+			</div>
+			<img title="Kiwi" src="kiwi.WebP" width='120px' alt="Kiwi">
+		</div>
+		<hr>
+		<div id="zone2">
+			<div class="zone_texte">
+				<h2>Pamplemousse...</h2>
+				<p> Le pomélo, pomelo ou pamplemousse, ou fruit défendu ou encore chadègue, est un arbre fruitier de la famille des Rutaceae.(Principalement en hiver)</p>
+			</div>
+			<img title="Pamplemousse" src="pamplemousse.WebP" width='120px' alt="Pamplemousse">
+			
+		</div>
+<hr>		<h1></h1>
+		<div id="zone1">
+			<div class="zone_texte">
+				<h2>Commande et renseignement</h2>
+				
+				<p>	Pour toute commlande n'hésitez pas à appeler le 03 88 26 11 35. Vous pouvez également nous contactez pour divers renseignement (prix, disponibilité, etc...) et des demandes spéciaux.	</p>
+			</div>
+			
+			
+			
+	
+	</section>
+	<footer>
+		EGE Market 84 Route de Mittelhausbergen, 67200 Strasbourg 8h-20h00 7j/7 NON STOP 03 88 26 11 35</a>
+	</footer>
+
+</body></html>
+    
+
